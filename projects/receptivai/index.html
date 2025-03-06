@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ReceptivAI - Nithilan Kalidoss</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="../../style.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/projects">Projects</a></li>
+			<li><a href="/experience/">Experience</a></li>
+		</ul>
+	</nav>
+
+	<div class="container">
+		<section>
+			<h1>ReceptivAI</h1>
+			<p>A complete customer service solution for fitness studios through an AI LLM and outside integrations.</p>
+			<p><a href="https://app.receptiv.ai" target="_blank">Visit ReceptivAI</a></p>
+
+			<h2>Project Overview</h2>
+			<p>As a co-founder and lead developer of ReceptivAI, I developed a comprehensive customer service platform
+				specifically designed for fitness studios. The platform leverages AI language models and integrates with
+				various external services to provide a seamless experience for both studio owners and their customers.
+			</p>
+
+			<h3>Key Features</h3>
+			<ul>
+				<li>Fully responsive <strong>full-stack web application</strong> built with modern technologies</li>
+				<li>Integrated <em>AI-powered response system</em> for customer inquiries</li>
+				<li>Role-based authorization system for different user types</li>
+				<li>Custom email client with Google API integration</li>
+				<li>Stripe billing integration with subscription management</li>
+			</ul>
+
+			<h3>Technical Details</h3>
+			<dl>
+				<dt>Front-end Development</dt>
+				<dd>Developed with Next.js 13 and ChakraUI to create a responsive and intuitive user interface</dd>
+
+				<dt>Authentication & Authorization</dt>
+				<dd>Implemented Next-Auth for secure user authentication and a role-based authorization system</dd>
+
+				<dt>Email Integration</dt>
+				<dd>Built a custom email client using Google Client APIs integrated with LLMs to generate responses and
+					modify schedules</dd>
+
+				<dt>Payment Processing</dt>
+				<dd>Integrated with Stripe API for billing, handling delinquent users, and enforcing limits for
+					resources</dd>
+			</dl>
+		</section>
+
+		<section>
+			<h2>Project Screenshots</h2>
+
+			<div class="project-images">
+				<figure>
+					<img src="../../assets/images/receptivai_login.png"
+						alt="Screenshot of the login page on ReceptivAI">
+					<figcaption>Login Page - Secure authentication with Next-Auth</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../../assets/images/receptivai_billing.png"
+						alt="Screenshot of the billing page on ReceptivAI">
+					<figcaption>Billing Page - Subscription management through Stripe integration</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../../assets/images/receptivai_studio.png"
+						alt="Screenshot of the studio management page on ReceptivAI">
+					<figcaption>Studio Page - Comprehensive dashboard for fitness studio management</figcaption>
+				</figure>
+
+				<figure>
+					<img src="../../assets/images/receptivai_email.png" alt="Screenshot of email thread on ReceptivAI">
+					<figcaption>Email Thread - AI-assisted email communication with customers</figcaption>
+				</figure>
+			</div>
+
+			<h3>Development Highlights</h3>
+			<p>One of the key technical challenges was implementing the NextAuth.js authentication system to work
+				seamlessly with our role-based authorization requirements. I designed a custom middleware solution that
+				validates user roles and subscription status before allowing access to protected resources.</p>
+
+			<p>The AI integration was built with a customizable system that allows studio owners to tailor the LLM
+				responses to match their brand voice and specific business needs, without requiring technical knowledge.
+			</p>
+		</section>
+	</div>
+
+	<footer>
+		<div class="social-links">
+			<a href="https://linkedin.com/in/nithilan-kalidoss/" target="_blank">LinkedIn</a>
+			<a href="https://github.com/nithilan4" target="_blank">GitHub</a>
+		</div>
+	</footer>
+</body>
+
+</html>
